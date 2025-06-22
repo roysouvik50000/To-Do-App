@@ -16,9 +16,10 @@ export default function ToDoCard({ v, i }) {
   return (
     <>
       <div
-        className={`bg-black/40 w-lg text-white font-[500] px-2 py-5 rounded-xl ms-8 mb-1.5 ${border} 
+        className={`bg-black/40 lg:w-2/3 w-[95%] mx-auto text-white font-[500] px-2 py-5 rounded-xl lg:ms-8 
+          mb-1.5
+          ${border} 
         ${v.isComplited ? "line-through" : ""}
-        
         `}
       >
         <ul>
